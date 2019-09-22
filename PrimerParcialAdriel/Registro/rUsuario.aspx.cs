@@ -13,5 +13,25 @@ namespace PrimerParcialAdriel.Registro
         {
 
         }
+
+        protected void buscarButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void nuevoButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void guardarButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void eliminarButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
