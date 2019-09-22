@@ -12,7 +12,15 @@ namespace BLL
     public class RepositorioBase<T> : IDisposable, IRepositorio<T> where T : class
     {
         internal Contexto contexto;
+        public RepositorioBase()
+        {
+            contexto = new Contexto();
+        }
 
+        public virtual void Dispose()
+        {
+            contexto.Dispose();
+        }
         public virtual bool Guardar(T entity)
         {
             bool paso = false;
