@@ -5,13 +5,14 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
+
 namespace PrimerParcialAdriel
 {
     public class Global : System.Web.HttpApplication
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            Page.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
+            
         }
     }
 }
