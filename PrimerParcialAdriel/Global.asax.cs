@@ -11,6 +11,7 @@ namespace PrimerParcialAdriel
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            Page.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
         }
     }
 }
