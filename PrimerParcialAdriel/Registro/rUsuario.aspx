@@ -3,10 +3,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br>
-    <asp:Label ID="Label1" runat="server" class="text-info text-center" Text="UsuarioId"></asp:Label>
-    <asp:TextBox class="form-control" ID="IdTextBox" type="number" runat="server"></asp:TextBox>
+ <div class="container ">
+    <div class="form-group">
+        <asp:Label ID="Label1" runat="server" class="text-info text-center" Text="UsuarioId"></asp:Label>
+        <asp:TextBox class="form-control" ID="IdTextBox" type="number" runat="server"></asp:TextBox>
+        <br>
+        <asp:Button class="btn btn-info" CausesValidation ="False" ID="BuscarButton" runat="server" Text="Buscar" OnClick="buscarButton_Click" />
+    </div>
+ </div>
     <br>
-    <asp:Button class="btn btn-info" CausesValidation ="False" ID="BuscarButton" runat="server" Text="Buscar" OnClick="buscarButton_Click" />
+   
 
        <br>
        

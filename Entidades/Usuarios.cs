@@ -14,9 +14,9 @@ namespace Entidades
         [Key]
         public int UsuariosId { get; set; }
 
-        public Usuarios(int usuariosId)
+        public Usuarios()
         {
-            this.UsuariosId = usuariosId;
+            this.UsuariosId = 0;
         }
     }
 }
