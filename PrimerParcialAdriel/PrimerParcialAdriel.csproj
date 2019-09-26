@@ -84,7 +84,7 @@
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="Global.asax" />
-    <Content Include="Registro\rUsuario.aspx" />
+    <Content Include="Registro\rEvaluacion.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -140,12 +140,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registro\rUsuario.aspx.cs">
-      <DependentUpon>rUsuario.aspx</DependentUpon>
+    <Compile Include="Registro\rEvaluacion.aspx.cs">
+      <DependentUpon>rEvaluacion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Registro\rUsuario.aspx.designer.cs">
-      <DependentUpon>rUsuario.aspx</DependentUpon>
+    <Compile Include="Registro\rEvaluacion.aspx.designer.cs">
+      <DependentUpon>rEvaluacion.aspx</DependentUpon>
     </Compile>
     <Compile Include="SiteMaster.Master.cs">
       <DependentUpon>SiteMaster.Master</DependentUpon>
@@ -180,6 +180,10 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{B6D465E1-1B51-4A85-88CC-44999CB1999C}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{F6AB1345-7F6C-45C5-9B2F-DA3DB70345DD}</Project>
       <Name>Entidades</Name>
