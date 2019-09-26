@@ -31,8 +31,7 @@ namespace Entidades
             Estudiante = estudiante;
             Detalle = detalle;
             Total = total;
-            Detalle = new List<DetalleEvaluacion>();
-
+           Detalle = new List<DetalleEvaluacion>();
         }
 
         public Evaluacion()
@@ -41,7 +40,8 @@ namespace Entidades
             Fecha = DateTime.Now;
             Estudiante = string.Empty;
             Total = 0;
-            Detalle = null;
+            Detalle = new List<DetalleEvaluacion>();
+
 
         }
     }

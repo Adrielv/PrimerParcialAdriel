@@ -56,7 +56,7 @@
             <div class="container ">
     <div class="form-group">
      <asp:Label ID="Label7" runat="server" class="text-info text-center" readOnly ="true"  Text="Total"></asp:Label>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+        <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>--%>
         <asp:TextBox class="form-control" ID="ToTalTextBox" type="number" runat="server"></asp:TextBox>
         </div>
  </div>
